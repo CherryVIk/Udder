@@ -15,6 +15,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="milk-splash" translatesAutoresizingMaskIntoConstraints="NO" id="Lyg-gx-Uzj">
+                                <rect key="frame" x="0.0" y="-70" width="414" height="1096"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Udder" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z95-kz-Vqc">
                                 <rect key="frame" x="160" y="114" width="94" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -47,12 +50,21 @@
                             </datePicker>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Lyg-gx-Uzj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-100" id="bSd-Yq-a7F"/>
+                            <constraint firstAttribute="trailing" secondItem="Lyg-gx-Uzj" secondAttribute="trailing" id="fo3-Ih-f12"/>
+                            <constraint firstItem="Lyg-gx-Uzj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vy1-Du-Vw3"/>
+                            <constraint firstAttribute="bottom" secondItem="Lyg-gx-Uzj" secondAttribute="bottom" constant="-100" id="xuJ-3F-o3o"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="127"/>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="milk-splash" width="1024" height="1024"/>
+    </resources>
 </document>
